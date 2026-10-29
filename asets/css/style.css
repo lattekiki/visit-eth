@@ -1,0 +1,290 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .container{
+    background-color: rgba(19, 23, 40,1);
+    color: white;
+    padding: 30px 20px 25px 20px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content:space-between;
+    margin-bottom: 50px;
+    position: fixed;
+    width:100%;
+ }
+ .container .home-logo{
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 5px;
+    margin-bottom: -20px;
+    
+ }
+ .container .image-logo img{
+    width: 50%;
+    border-radius: 5px;
+    margin-left:20px;
+    margin-top :-10px;
+ }
+ .text-logo h3{
+    margin-left:-10px;
+    font-size: 25px;
+    font-weight: 700;
+     margin-top :-10px;
+ }
+ .right-side{
+    padding-left:1px;
+    padding-right:70px;
+    font-weight:600;
+ }
+.right-side a{
+    gap: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.section-1{
+   background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+   url(../images/photo_2026-10-20_11-25-17.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;  
+   width: 100%;
+   height: 700px;
+   margin-top: 0;
+} 
+.section-1 .neverStop {
+font-weight: 600;
+color: white;
+padding: 15% 0 0 3%;
+font-size: 45px;
+margin-bottom:-40px;
+}
+.section-1 .exploring{
+   color: rgb(255, 194, 82);
+   font-weight: 600;
+   padding: 0.5% 0 1% 3%; 
+   font-size: 45px;
+   margin-top:-30px;
+}
+
+.section-1 .text-1{
+   color: white;
+   margin-left: 30px;
+   font-weight: 600;
+   font-size:25px;
+   margin-top:-20px;
+}
+.section-1 .btn-1{
+    padding: 5% 50% 0 40%;
+}
+.section-1 .btn-1 button{
+   border-radius:  30px;
+   display: inline-block;
+   font-weight:600;
+   font-size:15px;
+   padding: 10px;
+   background-color:  rgb(207, 151, 47);
+   border: none;
+   transition: 0.3s;
+   width:120px;
+&:hover{
+   background-color: aquamarine;
+}
+}
+.section-2, .section-3{
+     background-color: rgba(19, 23, 40,1);
+      color: white;
+}
+.section-2,.section-3 .tour{
+   text-align: center;
+   padding: 15px;
+}
+.section-2 .places{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding:20px;
+   border-radius: 10%;
+   gap:20px;
+}
+.section-2 .places .palace-container img{
+   width:50%;
+   height:180px;
+   margin-left: 20px;
+   padding: 5% 15% 5% 15%;
+   border-radius: 50%;
+}
+.places,.popular .text-container h3{
+   padding-top: 0px;
+   color: rgb(207, 151, 47);
+   display:flex;
+   text-align: center;
+   padding:10px;
+}
+.section-2 .places .card{
+   background-color:#18213F;
+   border-radius: 5%;
+   border: solid 0.5px #2C4068 ;
+   padding:10px 25px 25px 25px;
+   display:flex;
+   flex-direction: column;
+}
+.section-2 .places .card:hover{
+   border:solid 0.5px rgb(207, 151, 47);
+}
+.section-2 .places .card p{
+   color: rgb(212, 215, 234);
+   padding-top: 2rem;
+}
+.section-2 .places .card .read-more {
+   display:flex;
+   justify-content: center;
+   padding-top:12px;
+   margin-top: auto;
+}
+.section-2 .places .card .read-more .btn-2{
+   background: rgba(207, 151, 47, 0.2);
+   border: 1.5px solid black;
+   width:130px;
+   height:45px;
+   font-size: 15px;
+   color:rgb(207, 151, 47);
+   padding: 5px 20px;
+  border-radius: 9999px;
+}
+.section-2 .places .card .read-more .btn-2:hover{
+    background: rgb(207, 151, 47);
+   color:black;
+   font-weight: 600;
+}
+.section-3 .popular{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding:20px;
+   border-radius: 10%;
+   gap:20px;
+}
+.section-3 .popular .card{
+   background-color:#18213F;
+   border-radius: 5%;
+   border: solid 0.5px #2C4068 ;
+   padding:5px 25px 2px 25px;
+   display:flex;
+   flex-direction: column;
+}
+.section-3 .popular .card img{
+   border-radius: 10%;
+   width:100%;
+   height: 250px;
+   margin-top: 5px;
+}
+.section-3 .popular .card .text-container{
+   margin: -15px 20px;
+}
+.section-3 .popular .card:hover{
+   border:solid 0.5px rgb(207, 151, 47);
+}
+.section-3 .popular .card p{
+   color: rgb(212, 215, 234);
+   padding-top: 2rem;
+padding-bottom: 5rem;
+}
+.section-4{
+   background-color: rgba(19, 23, 40,1);
+.contact{
+   display:flex;
+   justify-content: center;
+   color:white;
+}
+}
+.section-4 .form{
+   display:grid;
+   grid-column: 2fr 2fr;
+   grid-row: 1fr 1fr;
+   padding-left:200px;
+
+}
+.section-4 .form .form-details{
+   padding-bottom: 20px;
+}
+.section-4 .form .form-details .name{
+   margin-top:10px;
+   background-color: #2C4068;
+   border-radius: 1px solid #000000;
+   height:30px;
+}
+.section-4 .form .form-details2 .name{
+   background-color: #2C4068;
+   border-radius: 1px solid #000000;
+   height:30px;
+}
+.section-4 .form .form-text {
+   background-color: #2C4068;
+   border-radius: 1px solid #000000;
+   width:350px;
+}
+.section-4 .form .btn{
+   margin-top: 30px;
+   border-radius:  30px;
+   font-weight:600;
+   font-size:15px;
+   padding: 10px;
+   background-color:  rgb(207, 151, 47);
+   border: none;
+   transition: 0.3s;
+   width:140px;
+}
+
+.section-5 .footer{
+   padding-top:30px;
+   padding-left:250px;
+    display:grid;
+   grid-column: 200px 200px 200px 200px;
+    background-color: rgba(19, 23, 40,1);
+    padding-right: 50px;
+    gap:100px;
+   display: flex;
+   flex-direction:row;
+   color:white;
+}
+.section-5 .footer .footer-1{
+   display:flex;
+   flex-direction:column;
+}
+.section-5 .footer .title{
+   color: rgb(207, 151, 47);
+}
+.section-5 .footer .h3{
+   font-weight: 100;
+}
+.section-5 .address, .address-1 {
+   display:flex;
+   justify-content: center;
+   background-color: rgba(19, 23, 40,1);
+   padding-top:20px;
+   color: white;
+}
+.right-side .togglebtn .list{
+   display:block;
+}
+.right-side .togglebtn span{
+   margin:0.1rem;
+   border:1px solid white;
+   width:2rem;
+}
+
+   
+@media (max-width: 730px) {
+   .right-side .togglebtn .list{
+      display:none;
+   }
+   .right-side .togglebtn{
+      display: block;
+      transform: rotate(90deg);
+   }
+   .right-side .togglebtn:hover .list {
+    display: block;
+}
+
+}
